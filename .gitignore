@@ -1,0 +1,12 @@
+.project
+.classpath
+.DS_Store
+.settings/
+target/
+.vlt
+chromedriver.log
+.DS_Store
+bin/
+.iml
+.idea/
+node_modules/
