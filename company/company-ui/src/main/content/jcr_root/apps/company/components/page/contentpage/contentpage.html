@@ -1,0 +1,26 @@
+<div data-sly-include="head.html"/>
+
+
+<h1 id="authorData">Hello World</h1>
+
+
+<div data-sly-resource ="${@path='par', resourceType='wcm/foundation/components/parsys'}"></div>
+<div data-sly-resource ="${@path='simplevar', resourceType='company/components/simpleVariable'}"></div>
+<div data-sly-resource ="${@path='title', resourceType='company/components/title'}"></div>
+<div data-sly-resource ="${@path='funny', resourceType='company/components/funnytext'}"></div>
+<div data-sly-use.helloWorld="com.adobe.training.core.HelloWorld">
+    
+    <p>${helloWorld.currentMsg}</p>
+
+</div>
+
+<div data-sly-resource = "${@path='topnav', resourceType='company/components/navigationbar'}"></div>
+
+<div data-sly-resource = "${@path='logo', resourceType='company/components/logo'}"></div>
+
+<div data-sly-resource ="${@path='par', resourceType='wcm/foundation/components/parsys'}"></div>
+
+<div data-sly-resource ="${@path='simplevar', resourceType='company/components/simpleVariable'}"></div>
+
+<div data-sly-resource = "${@path='title', resourceType='company/components/title'}"></div>
+

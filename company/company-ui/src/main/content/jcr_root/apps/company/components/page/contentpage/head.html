@@ -1,0 +1,32 @@
+<!--/*
+
+  ADOBE CONFIDENTIAL
+  __________________
+
+   Copyright 2014 Adobe Systems Incorporated
+   All Rights Reserved.
+
+  NOTICE:  All information contained herein is, and remains
+  the property of Adobe Systems Incorporated and its suppliers,
+  if any.  The intellectual and technical concepts contained
+  herein are proprietary to Adobe Systems Incorporated and its
+  suppliers and are protected by trade secret or copyright law.
+  Dissemination of this information or reproduction of this material
+  is strictly forbidden unless prior written permission is obtained
+  from Adobe Systems Incorporated.
+  
+*/-->
+<head data-sly-use.head="head.js" data-sly-use.headlibrenderer="headlibs.html" data-sly-use.clientlib="${'/libs/granite/sightly/templates/clientlib.html'}">
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta name="keywords" content="${head.keywords}">
+    <meta name="description" content="${head.description}">
+    <meta data-sly-call="${clientlib.all @ categories='cq.foundation-main'}" data-sly-unwrap></meta>
+<meta data-sly-call="${clientlib.all @ categories='company.edit'}" data-sly-unwrap></meta>
+<meta data-sly-call="${clientlib.all @ categories='apps.company-special'}" data-sly-unwrap></meta>
+    <meta data-sly-call="${headlibrenderer.headlibs @ designPath=head.designPath}" data-sly-unwrap></meta>
+    <meta data-sly-include="initwcm.html" data-sly-unwrap></meta>
+    <meta data-sly-include="stats.html" data-sly-unwrap></meta>
+    <link rel="icon" type="image/vnd.microsoft.icon" href="${head.faviconPath}">
+    <link rel="shortcut icon" type="image/vnd.microsoft.icon" href="${head.faviconPath}">
+    <title>${head.title}</title>
+</head>
